@@ -121,7 +121,7 @@ def logs(bot: telegram.Bot, update: telegram.Update):
 
 
 def main():
-    updater = Updater("910267145:AAFIwWP72YWpA2X76sR8T6CYMP9Fr4Exa7Y")
+    updater = Updater("1402684613:AAHY8G_qN8wRFHvT0d9NWfbweZRr8zrYT6I")
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("test_leechx", test_leechx))
     dp.add_handler(CommandHandler("paginator", paginator))
